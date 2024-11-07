@@ -17,8 +17,6 @@ package com.vaadin.tshirtshop;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.combobox.ComboBox;
-import com.vaadin.flow.component.dependency.HtmlImport;
-import com.vaadin.flow.component.dependency.StyleSheet;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.FlexLayout;
@@ -30,7 +28,6 @@ import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouterLink;
 import com.vaadin.tshirtshop.domain.TShirtOrder;
 
-@StyleSheet("frontend://src/styles.css")
 @Route
 public class MainView extends VerticalLayout {
 
